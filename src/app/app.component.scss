@@ -1,0 +1,56 @@
+.product{
+  padding: 20px 0;//верх и низ 20
+}
+
+.container-fluid{
+
+}
+
+.slider-wrap{
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+}
+
+.slider-main{
+  position: absolute;
+  width: 200%;
+}
+
+.item{
+  position: relative;
+  display: inline-block;
+  width: 450px;
+  height: 150px;
+  background-color: rgb(52, 223, 9);
+  margin: 0 12px
+}
+
+.text{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.button-area{
+  position: relative;
+}
+
+.previous{
+  position: absolute;
+  left: 33px;
+  top: 50px;
+  transform: translate(-30%, -30%);
+
+}
+
+.next{
+position: absolute;
+right: 0px;
+top: 50px;
+transform: translate(-30%, -30%)
+}
